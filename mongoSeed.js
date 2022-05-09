@@ -52,7 +52,7 @@ async function seedDB() {
         let scoreResultsByDate = []
 
         const sorting = () => {
-            scoreResultsByDate = scoreResults.sort((a, b) => a.date - b.date).reverse()
+            scoreResultsByDate = scoreResults.sort((a, b) => a.date - b.date)
         }
 
         for (let j = 0; j < resultsQty; j += 1) {
